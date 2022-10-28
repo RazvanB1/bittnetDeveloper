@@ -12,7 +12,21 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!!!!!!");
             Console.WriteLine("My first branch message");
+
+            Console.WriteLine(args[0]);
+            Console.WriteLine(args[1]);
+
             Console.ReadKey();
+
+            
         }
+    }
+}
+
+namespace MyNameSpace
+{
+    namespace Child
+    {
+        class Test { }
     }
 }
