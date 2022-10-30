@@ -13,8 +13,10 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World!!!!!!");
             Console.WriteLine("My first branch message");
 
-            Console.WriteLine(args[0]);
-            Console.WriteLine(args[1]);
+            //Console.WriteLine(args[0]);
+            //Console.WriteLine(args[1]);
+
+            MyNameSpace.Child.Test.Second();
 
             Console.ReadKey();
 
@@ -27,6 +29,19 @@ namespace MyNameSpace
 {
     namespace Child
     {
-        class Test { }
+        class Test
+        {
+           internal static void Second( )
+            {
+                Console.WriteLine("Hello World!!!!!! Second");
+                Console.WriteLine("My first branch message - Second");
+
+                int[] numere = new int[] { 1, 8, 13, 21, 37, 41 };
+                Console.WriteLine(numere.Length);
+                Console.WriteLine(numere.Rank);
+
+                Console.ReadKey();
+            }
+        }
     }
 }
