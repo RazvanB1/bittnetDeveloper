@@ -42,6 +42,7 @@ namespace MyNameSpace
 
                 Console.ReadKey();
                 Console.ReadKey();
+                Console.ReadKey();
             }
         }
     }
