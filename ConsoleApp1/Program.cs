@@ -41,6 +41,7 @@ namespace MyNameSpace
                 Console.WriteLine(numere.Rank);
 
                 Console.ReadKey();
+                Console.ReadKey();
             }
         }
     }
